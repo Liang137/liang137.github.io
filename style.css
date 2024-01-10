@@ -18,19 +18,19 @@ section {
 
 footer {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 75px;
     padding: 0;
     background-color: white;
 }
 
 h1, h2{
 	color: #527bbd;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-    margin-left: 12em;
-    margin-right: 12em;
-	padding-bottom: 0.2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+	padding-bottom: 10px;
 	line-height: 1.0;
 }
 
@@ -44,19 +44,19 @@ h2 {
 }
 
 p {
-	margin-top: 0.0em;
-	margin-bottom: 1em;
-    margin-left: 16em;
-    margin-right: 16em;
+	margin-top: 0;
+	margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
 	padding: 3px;
 	line-height: 1.5;
 }
 
 li {
-	margin-top: 0.0em;
-	margin-bottom: 1em;
-    margin-left: 16em;
-    margin-right: 16em;
+	margin-top: 0;
+	margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
 	padding: 3px;
 	line-height: 1.5;
 }
@@ -70,20 +70,23 @@ a:hover {
 	border-bottom: 1px solid gray;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     body {
         font-size: 16px;
     }
 
     h1, h2 {
-		margin: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	p {
-		margin: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	li {
-		margin: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
