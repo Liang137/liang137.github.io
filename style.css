@@ -27,8 +27,11 @@ footer {
     background-color: white;
 }
 
-h1, h2{
+h1, h2, h3 {
 	color: #527bbd;
+}
+
+h1, h2 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
@@ -36,12 +39,16 @@ h1, h2{
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 200%;
 }
 
 h2 {
-	font-size: 125%;
+	font-size: 150%;
 	border-bottom: 1px solid #aaaaaa;
+}
+
+h3 {
+	font-size: 125%;
 }
 
 p {
