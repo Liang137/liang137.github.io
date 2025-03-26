@@ -3,13 +3,14 @@
 }
 
 body {
+	font-size: clamp(14px, 1.5vw, 18px);
 	background: #f8f9fa;
 	color: #202122;
 	font-family: Georgia, serif;
 	line-height: 1.6;
-	max-width: 900px;
+	max-width: 940px;
 	margin: 0 auto;
-	padding: 0 1rem;
+	padding: 0 1.5rem;
 }
 
 header {
@@ -63,20 +64,13 @@ nav a {
 	margin-right: 2em;
 }
 
-a:link,
-a:visited {
+a:link, a:visited {
 	color: #0645ad;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
-}
-
-@media only screen and (max-width: 900px) {
-	body {
-		font-size: 16px;
-	}
 }
 
 .profile-pic {
