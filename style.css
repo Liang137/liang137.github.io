@@ -3,7 +3,6 @@
 }
 
 body {
-	font-size: clamp(0.875rem, 2vw, 1.25rem);
 	background: #f8f9fa;
 	color: #202122;
 	font-family: Georgia, serif;
@@ -78,4 +77,10 @@ a:hover {
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+@media (pointer: coarse) {
+	body {
+	  font-size: 14px;
+	}
 }
