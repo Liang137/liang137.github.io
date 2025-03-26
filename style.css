@@ -3,7 +3,7 @@
 }
 
 body {
-	font-size: clamp(14px, 1.5vw, 18px);
+	font-size: clamp(0.875rem, 2vw, 1.25rem);
 	background: #f8f9fa;
 	color: #202122;
 	font-family: Georgia, serif;
