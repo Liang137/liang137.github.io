@@ -84,3 +84,9 @@ a:hover {
 	  font-size: 14px;
 	}
 }
+
+@media (max-width: 500px) {
+	.nav-link {
+	  display: none;
+	}
+}  
