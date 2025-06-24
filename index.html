@@ -26,14 +26,27 @@
     <section id="about">
         <h2>About</h2>
         <p>
-            I am a third-year Ph.D. student in computer science at the <a href="https://learning-systems.org/">Max Planck ETH Center for Learning Systems</a>, jointly advised by <a href="https://odi.inf.ethz.ch/niaohe">Niao He</a> from ETH Zurich and <a href="https://sites.google.com/view/mmuehlebach/">Michael Muehlebach</a> from the Max Planck Institute for Intelligent Systems. I also closely collaborate with <a href="https://homes.cs.washington.edu/~sewoong/">Sewoong Oh</a> from University of Washington and <a href="https://scholar.google.com/citations?user=0gJQCIgAAAAJ&hl=en">Kiran Koshy Thekumparampil</a> from Amazon. 
-        </p>
-        <p>
-            My research focus lies in the intersection between optimization and machine learning. I have a keen interest in developing efficient optimization algorithms for trustworthy machine learning.
+            I am a 4th-year Ph.D. student in computer science at the <a href="https://learning-systems.org/">Max Planck ETH Center for Learning Systems</a>, jointly advised by <a href="https://odi.inf.ethz.ch/niaohe">Niao He</a> from ETH Zurich and <a href="https://sites.google.com/view/mmuehlebach/">Michael Muehlebach</a> from the Max Planck Institute for Intelligent Systems. I also closely collaborate with <a href="https://homes.cs.washington.edu/~sewoong/">Sewoong Oh</a> from University of Washington and <a href="https://scholar.google.com/citations?user=0gJQCIgAAAAJ&hl=en">Kiran Koshy Thekumparampil</a> from Amazon. 
         </p>
         <p>
             Prior to this, I received my master's degree in computer science from <a href="https://ethz.ch/en.html">ETH Zurich</a> in 2021 and bachelor's degree in physics from <a href="https://english.pku.edu.cn/">Peking University</a> in 2019.
         </p>
+        <p>
+            My research focuses on the intersection between optimization and machine learning, and I have a keen interest in developing efficient optimization algorithms for trustworthy machine learning. My current research targets the <b>efficient fine-tuning of large language models (LLMs)</b>, particularly on:
+        </p>
+        <ul>
+            <li>
+                <b>Zeroth-order optimization</b> for memory-efficient LLMs fine-tuning;
+                see DPZero <a href="https://proceedings.mlr.press/v235/zhang24af.html">[ICML'24]</a> on private and memory-efficient LLMs fine-tuning,
+                and <a href="https://arxiv.org/abs/2506.05454">[arXiv'25]</a> on implicit regularization of zeroth-order optimization towards flat minima.
+            </li>
+            <li>
+                Parameter-efficient fine-tuning (PEFT) such as <b>LoRA</b>;
+                see <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/4eb2c0adafbe71269f3a772c130f9e53-Abstract-Conference.html">[NeurIPS'24]</a> on balancedness of LoRA matrix,
+                NoRA <a href="https://openreview.net/forum?id=YTEwJaBdh0">[ICLR'25]</a> on LoRA initialization,
+                and PoLAR <a href="https://arxiv.org/abs/2506.03133">[arXiv'25]</a> on how rank inefficiency in LoRA can be resolved.
+            </li>
+        </ul>
     </section>
 
     <section id="publications">
@@ -41,6 +54,16 @@
 
         <h3>Preprint</h3>
         <ul>
+            <li>
+                Zeroth-Order Optimization Finds Flat Minima. <br>
+                <b>Liang Zhang</b>, Bingcong Li, Kiran Koshy Thekumparampil, Sewoong Oh, Michael Muehlebach, Niao He. <br>
+                Working Paper <a href="https://arxiv.org/abs/2506.05454">[arXiv]</a>
+            </li>
+            <li>
+                PoLAR: Polar-Decomposed Low-Rank Adapter Representation. <br>
+                Kai Lion, <b>Liang Zhang</b>, Bingcong Li, Niao He. <br>
+                Working Paper <a href="https://arxiv.org/abs/2506.03133">[arXiv]</a> <a href="https://github.com/kcc-lion/polar">[GitHub]</a>
+            </li>
             <li>
                 A Hessian-Aware Stochastic Differential Equation for Modelling SGD. <br>
                 Xiang Li, Zebang Shen, <b>Liang Zhang</b>, Niao He. <br>
@@ -128,10 +151,17 @@
     <section id="supervision">
         <h2>Project Supervision</h2>
         <ul>
-            <!-- <li>Colomban Duclaux, semester project at ETH Zurich, 2025 (co-supervised with Bingcong Li). Topic: DP RLHF. </li>
-            <li>Yudong Wei, semester project at ETH Zurich, 2025 (co-supervised with Bingcong Li). Topic: Matrix Sensing. </li> -->
             <li>
-                Lejs Behric, bachelor thesis at ETH Zurich, 2024 (co-supervised with <a href="https://bingcongli.github.io/">Bingcong Li</a> and Kiran Koshy Thekumparampil). <br>
+                Colomban Duclaux, semester project at ETH Zurich, 2025 (co-supervised with <a href="https://bingcongli.github.io/">Bingcong Li</a>). <br>
+                Topic: Aligning LLMs with Differentially Private Reinforcement Learning from Human Feedback.
+            </li>
+            <li>
+                Yudong Wei, semester project at ETH Zurich, 2025 (co-supervised with Bingcong Li). <br>
+                Topic: Overparameterized Matrix Sensing.
+                <!-- Topic: Riemannian Optimization for Overparameterized Matrix Sensing. -->
+            </li>
+            <li>
+                Lejs Behric, bachelor thesis at ETH Zurich, 2024 (co-supervised with Bingcong Li and Kiran Koshy Thekumparampil). <br>
                 Topic: Fine-tuning LLMs with Efficient Zeroth-Order Optimization.
             </li>
             <li>
@@ -152,13 +182,13 @@
     <section id="service">
         <h2>Service</h2>
         <ul>
-            <li>Reviewers for JMLR, NeurIPS (2023, 2024, 2025), ICLR (2023, 2024, 2025), ICML (2024, 2025), and AISTATS (2025). </li>
+            <li>Reviewers for JMLR, TMLR, NeurIPS (2023, 2024, 2025), ICLR (2023, 2024, 2025), ICML (2024, 2025), and AISTATS (2025). </li>
             <li>Top reviewers for NeurIPS (2024). </li>
         </ul>
     </section>
 
     <footer>
-        <p>&copy; Template generated by ChatGPT &nbsp; | &nbsp; Last update: Mar, 2025</p>
+        <p>&copy; Template generated by ChatGPT &nbsp; | &nbsp; Last update: Jun, 2025</p>
     </footer>
 </body>
 </html>
