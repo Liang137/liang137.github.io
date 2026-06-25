@@ -26,20 +26,22 @@
     <section id="about">
         <h2>About</h2>
         <p>
-            I am a 4th-year Ph.D. student in computer science at the <a href="https://learning-systems.org/">Max Planck ETH Center for Learning Systems</a>, jointly advised by <a href="https://odi.inf.ethz.ch/niaohe">Niao He</a> from ETH Zurich and <a href="https://sites.google.com/view/mmuehlebach/">Michael Muehlebach</a> from the Max Planck Institute for Intelligent Systems. I also closely collaborate with <a href="https://homes.cs.washington.edu/~sewoong/">Sewoong Oh</a> from University of Washington and <a href="https://scholar.google.com/citations?user=0gJQCIgAAAAJ&hl=en">Kiran Koshy Thekumparampil</a> from Amazon. 
+            I received my Ph.D. in computer science from ETH Zurich, jointly advised by <a href="https://odi.inf.ethz.ch/niaohe">Niao He</a> from ETH Zurich and <a href="https://sites.google.com/view/mmuehlebach/">Michael Muehlebach</a> from the Max Planck Institute for Intelligent Systems.
+            I am affiliated with the <a href="https://learning-systems.org/">Max Planck ETH Center for Learning Systems</a>.
+            I also closely collaborate with <a href="https://homes.cs.washington.edu/~sewoong/">Sewoong Oh</a> from University of Washington and <a href="https://scholar.google.com/citations?user=0gJQCIgAAAAJ&hl=en">Kiran Koshy Thekumparampil</a> from Amazon. 
         </p>
         <p>
             Prior to this, I received my master's degree in computer science from <a href="https://ethz.ch/en.html">ETH Zurich</a> in 2021 and bachelor's degree in physics from <a href="https://english.pku.edu.cn/">Peking University</a> in 2019.
         </p>
         <p>
-            My research focuses on the intersection between optimization and machine learning, and I have a keen interest in developing efficient optimization algorithms for trustworthy machine learning. My current research targets the <b>efficient fine-tuning of large language models (LLMs)</b>, particularly on:
+            My research focuses on the intersection between optimization and machine learning, and I have a keen interest in developing efficient optimization algorithms for trustworthy machine learning. My current research targets the <b>efficient training of large language models (LLMs)</b>, particularly on:
         </p>
         <ul>
             <li>
                 <b>Zeroth-order optimization</b> for memory-efficient LLMs fine-tuning;
                 see DPZero <a href="https://proceedings.mlr.press/v235/zhang24af.html">[ICML'24]</a> on private and memory-efficient LLMs fine-tuning,
                 <a href="https://arxiv.org/abs/2506.05454">[NeurIPS'25]</a> on implicit regularization of zeroth-order optimization towards flat minima,
-                and ConMeZO <a href="https://arxiv.org/abs/2511.02757">[AISTATS'26]</a> on improving zeroth-order methods with cone sampling.
+                and <a href="https://arxiv.org/abs/2604.14669">[ICML'26]</a> on the edge of stability in zeroth-order optimization.
             </li>
             <li>
                 Parameter-efficient fine-tuning (PEFT) such as <b>LoRA</b>;
@@ -53,19 +55,10 @@
     <section id="publications">
         <h2>Publications</h2>
 
-        <h3>Preprint</h3>
+        <!-- <h3>Preprint</h3>
         <ul>
-            <li>
-                Zeroth-Order Optimization at the Edge of Stability. <br>
-                Minhak Song, <b>Liang Zhang</b>, Bingcong Li, Niao He, Michael Muehlebach, Sewoong Oh. <br>
-                Working Paper <a href="https://openreview.net/forum?id=InkMd89Pju">[Sci4DL@ICLR'26]</a>
-            </li>
-            <li>
-                SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference. <br>
-                Hao Ma, Melis Ilayda Bal, <b>Liang Zhang</b>, Bingcong Li, Niao He, Melanie Zeilinger, Michael Muehlebach. <br>
-                Working Paper <a href="https://arxiv.org/abs/2602.00942">[arXiv]</a> <a href="https://openreview.net/forum?id=xmoLDllFm0">[CPAL'26]</a>
-            </li>
-        </ul>
+            
+        </ul> -->
 
         <h3>Journal Article</h3>
         <ul>
@@ -83,6 +76,16 @@
 
         <h3>Conference Paper</h3>
         <ul>
+            <li>
+                Zeroth-Order Optimization at the Edge of Stability. <br>
+                Minhak Song, <b>Liang Zhang</b>, Bingcong Li, Niao He, Michael Muehlebach, Sewoong Oh. <br>
+                <b>ICML, 2026</b> <a href="https://arxiv.org/abs/2604.14669">[arXiv]</a> <a href="https://openreview.net/forum?id=InkMd89Pju">[Sci4DL@ICLR'26 (Oral)]</a>
+            </li>
+            <li>
+                SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference. <br>
+                Hao Ma, Melis Ilayda Bal, <b>Liang Zhang</b>, Bingcong Li, Niao He, Melanie Zeilinger, Michael Muehlebach. <br>
+                <b>ICML, 2026</b> <a href="https://arxiv.org/abs/2602.00942">[arXiv]</a> <a href="https://openreview.net/forum?id=xmoLDllFm0">[CPAL'26]</a>
+            </li>
             <li>
                 On the Benefits of Weight Normalization for Overparameterized Matrix Sensing. <br>
                 Yudong Wei, <b>Liang Zhang</b>, Bingcong Li, Niao He. <br>
@@ -140,6 +143,10 @@
         <h2>Thesis</h2>
         <ul>
             <li>
+                Selecting Minima in Optimization: Implicit Regularization and Active Steering. <br>
+                Doctoral Thesis <a href="https://doi.org/10.3929/ethz-c-000801345">[ETH]</a>. Examined by Niao He, Michael Muehlebach, Sewoong Oh, and <a href="https://sml.inf.ethz.ch/group/fannyy/">Fanny Yang</a>.
+            </li>
+            <li>
                 Variance Reduction for Non-Convex Stochastic Optimization: General Analysis and New Applications. <br>
                 Master Thesis <a href="https://doi.org/10.3929/ethz-b-000507454">[ETH]</a>. Supervised by <a href="https://sites.google.com/view/yifan-hu/home">Yifan Hu</a> and Niao He.
             </li>
@@ -149,8 +156,7 @@
     <section id="talks">
         <h2>Presentations</h2>
         <ul>
-            <!-- <li>INFORMS </li> -->
-            <!-- <li>CPAL 2026 </li> -->
+            <li><a href="https://ios2026.isye.gatech.edu/">INFORMS Optimization Society Conference 2026</a>, Atlanta. Talk on how zeroth-order optimization finds flat minima. </li>
             <!-- <li>NeurIPS 2025, San Diego. Poster on ZO finds flat minima, PoLAR, and WN. </li> -->
             <li><a href="https://www.plusx.ai/">AI+X Summit 2025</a>, Zurich. Talk on efficient LLMs fine-tuning (<a href="https://www.plusx.ai/2025-program/efficient-llms-finetuning-(elf)">ELF</a>). </li>
             <!-- <li>ICLR 2025, Singapore. Poster on NoRA. </li> -->
@@ -219,7 +225,7 @@
     </section>
 
     <footer>
-        <p>&copy; Template generated by ChatGPT &nbsp; | &nbsp; Last update: Mar, 2026</p>
+        <p>&copy; Template generated by ChatGPT &nbsp; | &nbsp; Last update: Jun, 2026</p>
     </footer>
 </body>
 </html>
